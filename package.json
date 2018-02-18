@@ -1,6 +1,6 @@
 {
   "name": "@genus-machina/eslint-plugin-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shared eslint stuff for node projects",
   "main": "index.js",
   "scripts": {
