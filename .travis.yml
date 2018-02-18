@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '8'
+deploy:
+  provider: npm
+  email: simplex.rimor@gmail.com
+  api_key:
+    secure: VDmwdZ76mF7Ec295m4Yi9LJfszDDpnpD7Tj2mijV7Irqzk/YsJGUt8Z4eKXJV0vQXTelKRg4FgN2U3dgkZalM8YX3BaIiCMVCupEzgskpDQj62QwvHEyHfHKrvYJhZIXcCBCihcCeYnmK6KhMR2RnzCDJXjws+EB6O2Rucbgoy8CtlZwIuNxeRXB9e/+/KVBEud55z3FpIdGe0SJh+HuQU8AOjRF/CLYGQ71HoOegdmFqrUW6izZNY4r+VS22Ndh1AHZO+wcCuMQMh3hJcVvCb9XyTA9fVUqf1zFVRfKikkl2jnUpzZEPRzjl9OUlwfXrZmMjtsHA4kMX47If3C+KCKVYjyHO7Bcy9jNoT19Ii8DVT4Lb3Zjm1vSOrs4cFf2GZjTXJm7Q94jr/xn1kkrQD+FTuHA9aOG5awH80OcRalaPCJsZ8wPNavOJec/03VK0CWDHlHEyeM+N9Uxy8P2+PXToTdSIfhrxnbvmfbAtm4oHTPwAUdI3WSlqsyMdfxviURgM0fb6UQEzuv/lDB/aky+EK0IkMwj12fMk9FDNUZ0mYXY2CgDKOlNHaZ/sM33gdgAkCxzoTU4bmnR73q8OXnKnRCKP0iYeo3hbiV2VGaccG2b0iKhnJpzVS12sudKUPCITzbawurJh0O7pBMBiCz06oq9lDYgLa4F8BReqJA=
+  on:
+    branch: master
+    tags: true
+    repo: genus-machina/eslint-plugin-node
